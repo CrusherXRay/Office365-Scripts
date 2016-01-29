@@ -1,0 +1,1 @@
+﻿Get-MsolAccountSku | Where-Object {$_.SKUPartNumber -eq "EnterprisePack"} | ForEach-Object {$_.ServiceStatus}

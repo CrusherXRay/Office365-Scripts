@@ -1,0 +1,1 @@
+﻿Get-MsolUser -All | Format-Table DisplayName, Licenses | ConvertTo-Csv | Out-File C:\office365lics.csv
